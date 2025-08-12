@@ -26,5 +26,9 @@ def create_database():
             cursor.close()
             connection.close()
 
+##How to run it
+python MySQLServer.py
+
 if __name__ == "__main__":
+
     create_database()
